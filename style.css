@@ -1,0 +1,118 @@
+/* :root {
+    font-size: 90px;
+} */
+/* Selectores de Etiqueta HTML */
+
+/* 
+ Propiedad : valor ;
+*/
+
+/* h2 {
+    color : red ;
+} */
+
+/* Selector por clase .*/
+
+/* .titulo{
+    color: red;
+} */
+
+/* Selector por ID # */
+
+/* #tituloPrincipal{
+    color: blue;
+} */
+
+/* C S S
+ Cascading Style Sheets
+ Hoja de estilo en cascada
+*/
+
+/* #tituloPrincipal{
+    color: brown;
+}
+
+.titulo{
+    color: blueviolet;
+}
+
+h2 {
+    color: red;
+}
+
+h2{
+    color: blue;
+} */
+
+/* 
+Etiqueta HTML 0 0 1
+Class 0 1 0
+ID 1 0 0
+important
+*/
+
+ /* main > div > h2 { 001 + 001 + 001 = 003  
+    font-size: 60px;
+} */
+
+/* Selector por descendencia */
+/* Seleccionando a los hijos directos */
+/* .caja > h2 {
+    color: red;
+} */
+/* Seleccionando a todos los descendientes */
+/* .caja h2 {
+    font-size: 60px;
+} */
+/* Selector multiple con , */
+/* h2 , p {
+    color: red;
+} */
+
+/* .caja {
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 10px;
+}
+
+.titulo {
+    color: blue;
+    font-size: 0.75rem;
+} */
+
+/* 
+EM = Toma la medida del contenedor
+ padre mas cercano
+REM = Raiz/ Root tamaño de fuente de la raiz
+%
+VH
+VW
+*/
+
+/* 
+Medidas absolutas = No va a cambiar 
+respecto al entorno
+Medidas relativas = Cambian segun el entorno
+*/
+/* main{
+    width: 700px;
+    border: 1px solid red;
+} */
+
+.muestra{
+    background-color: black;
+    width: 80vw;
+    height: 60px;
+}
+
+.caja {
+    background-image: url(gatito.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*
+% = Toma la medida del padre 
+VW = View Width el ancho de la vista
+VH = View Height el alto de la vista */
